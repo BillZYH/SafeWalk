@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RouteFinder - Welcome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="welcome-page">
+  <div class="decor decor-one"></div>
+  <div class="decor decor-two"></div>
+  <div class="grid-glow"></div>
+
+  <main class="welcome-shell">
+    <section class="intro-panel">
+      <div class="brand"><span class="pin">●</span> SafeWalk</div>
+      <p class="eyebrow">SMART CITY NAVIGATION</p>
+      <h1>Find your way.<br><span>Stay Safe.</span></h1>
+      
+
+      <div class="mini-route" aria-hidden="true">
+        <span class="dot start"></span>
+        <span class="route-line"></span>
+        <span class="dot finish"></span>
+      </div>
+
+      <div class="features">
+        <span>◆ Route Preview</span>
+        <span>◆ Danger Alerts</span>
+        <span>◆ Simple Navigation</span>
+      </div>
+    </section>
+
+    <section class="login-card">
+      <div class="card-icon">⌖</div>
+      <p class="small-label">WELCOME</p>
+      <h2>Start your route</h2>
+     
+
+      <form action="route.html" method="get">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your Name" autocomplete="name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="name@example.com" autocomplete="email" required>
+
+        <button type="submit">Continue SafeWalk <span>→</span></button>
+      </form>
+   
+    </section>
+  </main>
+</body>
+</html>
